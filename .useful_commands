@@ -1,0 +1,4 @@
+Download best quality video :
+youtube-dl -f '(bestvideo+bestaudio/best)[protocol^=http]'
+Convert mkv to mp4 : 
+fmpeg -i file.mkv -codec copy file.mp4 
