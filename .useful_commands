@@ -1,4 +1,6 @@
 Download best quality video :
 youtube-dl -f '(bestvideo+bestaudio/best)[protocol^=http]'
+Download Mp3 Only : 
+youtube-dl -x --audio-format mp3
 Convert mkv to mp4 : 
 fmpeg -i file.mkv -codec copy file.mp4 
